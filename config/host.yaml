@@ -1,0 +1,12 @@
+host: http://api.keyou.site:8000
+email_host: http://api.keyou.site:8000/user/{}/count/
+username_host: http://api.keyou.site:8000/user/{}/count/
+
+logger:
+  name: "py36"
+  logger_level: "INFO"
+  fmtt: "%(asctime)s-%(levelname)s:%(name)s:%(message)s,%(filename)s,%(lineno)s"
+  handle_level: "INFO"
+  file: True
+  file_name: py36.log
+  file_handle_level: "INFO"
